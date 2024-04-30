@@ -8,7 +8,7 @@ def scrape_linkedin_profile(linkedin_profile_url: str):
     # api_endpoint = "https://nubela.co/proxycurl/api/v2/linkedin"
     # header_dic = {"Authorization": f'Bearer {os.environ.get("PROXYCURL_API_KEY")}'}
 
-    response = requests.get(linkedin_profile_url)
+    response = requests.get('https://gist.githubusercontent.com/debadridtt/868bf7c5d93b9a7385a2af07ae11a6df/raw/ba507de5aad78bbe5b570f588ac5a9b5f18994bf/debadridtt-json')
 
     data = response.json()
     data = {
